@@ -41,6 +41,15 @@ private WebDriver driver;
 	@FindBy(xpath="//*[@id=\"tabs-2\"]/div/div[2]/div[2]/ul/li[5]/a")
 	private WebElement linkCoursesCategories;
 	
+	@FindBy(xpath="//*[@id=\"tabs-1\"]/div/div[2]/div[2]/ul/li[1]/a")
+	private WebElement linkUserList;
+	
+	@FindBy(xpath="//*[@id=\"tabs-4\"]/div/div[2]/div[2]/ul/li[3]/a")
+	private WebElement linkSessionsCategoriesList;
+	
+	@FindBy(xpath="//*[@id=\"tabs-4\"]/div/div[2]/div[2]/ul/li[8]/a")
+	private WebElement linkCareersAndPromotions;
+	
 	public void clickAdminLink()
 	{
 		this.adminLink.click();
@@ -147,4 +156,21 @@ private WebDriver driver;
 		this.linkCoursesCategories.click();
 	}
 		
+	//click on link User List
+	public void clickLinkUserList()
+	{
+		this.linkUserList.click();
+	}
+	
+	//click on Sessions Categories link
+	public void clickLinkSessionsCategories()
+	{
+		this.linkSessionsCategoriesList.click();
+	}
+	
+	//click on Careers and Promotions link
+	public void clickLinkCareersAndPromotions()
+	{
+		this.linkCareersAndPromotions.click();
+	}
 }

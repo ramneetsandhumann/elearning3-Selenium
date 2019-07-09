@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AddCourseCategoriesPOM {
 
-private WebDriver driver; 
+	private WebDriver driver; 
 	
 	public AddCourseCategoriesPOM(WebDriver driver) {
 		this.driver = driver; 

@@ -59,7 +59,7 @@ public class TC_023_eLearnAdmin_AddUserToCourse {
 
   @Test
   public void addUserToCourse() throws InterruptedException {
-	  elearnloginPOM.sendUserName("admin");
+	  	elearnloginPOM.sendUserName("admin");
 		elearnloginPOM.sendPassword("admin@123");
 		elearnloginPOM.clickLoginBtn(); 
 					
